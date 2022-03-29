@@ -28,22 +28,12 @@ function Home2() {
               <br />
               My field of Interest is&nbsp;
               <i>
-                <b className="purple">Android App Developer</b>
+                <b className="purple">Android/iOS App Developer</b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js</b>
-              </i>
+              with <b className="purple">Fullstack (MERN)</b>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
