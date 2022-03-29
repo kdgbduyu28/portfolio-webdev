@@ -7,6 +7,7 @@ import flashchat from "../../Assets/Projects/flashchat.jpg";
 import todolist from "../../Assets/Projects/todolist.jpg";
 import pseiwatcher from "../../Assets/Projects/pseiwatcher.jpg";
 import todolistw from "../../Assets/Projects/todolist.PNG";
+import maritesanpng from "../../Assets/Projects/maritesan.PNG";
 import blogpost from "../../Assets/Projects/blogpost.PNG";
 
 function Projects() {
@@ -53,6 +54,16 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={maritesanpng}
+              isBlog={false}
+              title="Maritesan (Social Media Site)"
+              description="MERN Fullstack website that has an email/password, Facebook, and Google authentication and a realtime messaging board."
+              link="https://github.com/kdgbduyu28/Maritesan"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={blogpost}
               isBlog={false}
               title="Blog Site"
@@ -66,7 +77,7 @@ function Projects() {
               imgPath={todolistw}
               isBlog={false}
               title="TodoList"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              description="Back-end focused project that focuses on CRUD RESTful API via mongoosejs"
               link="https://github.com/kdgbduyu28/todolist-v2"
             />
           </Col>
