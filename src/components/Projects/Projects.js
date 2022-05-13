@@ -2,9 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-
 import flashchat from "../../Assets/Projects/flashchat.jpg";
-import todolist from "../../Assets/Projects/todolist.jpg";
+import dtouchapp from "../../Assets/Projects/dtouchapp.jpg";
 import pseiwatcher from "../../Assets/Projects/pseiwatcher.jpg";
 import todolistw from "../../Assets/Projects/todolist.PNG";
 import maritesanpng from "../../Assets/Projects/maritesan.PNG";
@@ -44,11 +43,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={todolist}
+              imgPath={dtouchapp}
               isBlog={false}
-              title="Todo List"
-              description="A simple item checklist app"
-              link="https://github.com/kdgbduyu28/TodoList"
+              title="Dental Clinic Appointment System / Management"
+              description="Flutter based cross platform App that utilizes Firebase as the API with multiple options for login and OTP verification for customer's phone number validity"
+              link="https://github.com/kdgbduyu28/dtouchdentalApp"
             />
           </Col>
 
